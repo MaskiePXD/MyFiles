@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-#ITS ONLY FOR EDUCATIONAL POURPOSES ONLY!!!!
+#ITS ONLY FOR EDUCATIONAL PURPOUSES ONLY!!!!
 #code Made By Maskie
 #Status: Not Tested On Linux, AND NO IT DOSENT WORK ON WINDOWS
 
