@@ -19,11 +19,11 @@ if next == 'Y':
     fullduplexmode = 'set arp.spoof.fullduplex true'
     os.system(fullduplexmode)
     targets = input('IP to atack From Network: ')
-    print(targets)#I Think That it will be problem eh who cares i will debug it anyway
+    print(targets)#I Think That it will be problem eh who cares i will debug it anyway (Maybe?)
     result = subprocess.run(['arp.spoof.targets', targets])
     if result.returncode == 0:
         print(f'Started Open Wireshark and select on wlan0')
-        print(f'or other wifi card and type in the wireshark search: ip.src == {targets}')
+        print(f'or other wifi card and type in the wireshark Type In: ip.src == {targets}')
 else:
     print('Bye')
 
