@@ -26,4 +26,3 @@ if next == 'Y':
         print(f'or other wifi card and type in the wireshark Type In: ip.src == {targets}')
 else:
     print('Bye')
-
